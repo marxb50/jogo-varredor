@@ -242,8 +242,8 @@ body::before {
 	position: absolute;
 	right: calc(16px + var(--safe-right));
 	bottom: calc(16px + var(--safe-bottom));
-	width: 178px;
-	height: 142px;
+	width: 205px;
+	height: 158px;
 	filter: drop-shadow(0 8px 10px var(--shadow));
 }
 
@@ -292,27 +292,16 @@ body::before {
 }
 
 .action-sweep {
-	right: 74px;
-	top: 50px;
+	right: 104px;
+	top: 54px;
 	background: var(--coral);
 }
 
 .action-spin {
 	right: 0;
-	top: 76px;
+	top: 92px;
 	background: var(--blue);
 }
-
-.action-pogo {
-	right: 116px;
-	top: 2px;
-	width: 53px;
-	height: 53px;
-	background: #7d55d9;
-}
-
-.action-pogo strong { font-size: 16px; }
-.action-pogo small { font-size: 6px; }
 
 .rotate-hint {
 	display: none;
