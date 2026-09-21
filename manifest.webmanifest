@@ -1,0 +1,20 @@
+{
+	"name": "Faxineiro Acrobático",
+	"short_name": "Faxineiro",
+	"description": "Ação e plataforma com vassoura pelas ruas de Parnamirim.",
+	"start_url": "./",
+	"scope": "./",
+	"display": "fullscreen",
+	"orientation": "landscape",
+	"background_color": "#071924",
+	"theme_color": "#071924",
+	"icons": [
+		{
+			"src": "index.icon.png",
+			"sizes": "any",
+			"type": "image/png",
+			"purpose": "any maskable"
+		}
+	]
+}
+
