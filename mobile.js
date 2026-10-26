@@ -6,7 +6,7 @@
 	const pointerKeys = new Map();
 	const keyData = {
 		ArrowLeft: { action: "move_left", key: "ArrowLeft", keyCode: 37 },
-		ArrowUp: { action: "jump", key: "ArrowUp", keyCode: 38 },
+		ArrowUp: { action: "ui_up", key: "ArrowUp", keyCode: 38 },
 		ArrowRight: { action: "move_right", key: "ArrowRight", keyCode: 39 },
 		ArrowDown: { action: "move_down", key: "ArrowDown", keyCode: 40 },
 		Space: { action: "jump", key: " ", keyCode: 32 },

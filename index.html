@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
@@ -93,16 +93,6 @@ body {
 		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
 
-		<!-- mobile-shell:start -->
-		<meta name="theme-color" content="#071924">
-		<meta name="description" content="Corra, pule e limpe as ruas de Parnamirim em Faxineiro Acrobático.">
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-		<meta name="screen-orientation" content="landscape">
-		<link rel="manifest" href="manifest.webmanifest">
-		<link rel="stylesheet" href="mobile.css?v=3">
-		<!-- mobile-shell:end -->
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -121,7 +111,7 @@ body {
 
 		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":14813596,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":14816252,"index.wasm":39514754},"focusCanvas":true,"gdextensionLibs":[],"godotPoolSize":4};
 const GODOT_THREADS_ENABLED = false;
 const engine = new Engine(GODOT_CONFIG);
 
@@ -225,41 +215,6 @@ const engine = new Engine(GODOT_CONFIG);
 	}
 }());
 		</script>
-		<!-- mobile-hud:start -->
-		<div class="game-chrome" aria-label="Controles do jogo">
-			<div class="game-topbar">
-				<div class="game-brand">
-					<span class="brand-mark" aria-hidden="true">✦</span>
-					<span class="brand-copy">
-						<strong>FAXINEIRO ACROBÁTICO</strong>
-						<small>Parnamirim em movimento</small>
-					</span>
-				</div>
-				<button class="icon-button" id="fullscreen-button" type="button" aria-label="Ativar tela cheia">
-					<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 14H5v5h5v-2H7v-3Zm-2-4h2V7h3V5H5v5Zm12 7h-3v2h5v-5h-2v3ZM14 5v2h3v3h2V5h-5Z"/></svg>
-				</button>
-			</div>
-
-			<div class="rotate-hint">↻ Vire o celular para jogar melhor</div>
-
-			<div class="mobile-controls">
-				<div class="dpad" aria-label="Direção">
-					<button class="control-button dpad-up" data-keys="ArrowUp" type="button" aria-label="Cima">▲</button>
-					<button class="control-button dpad-left" data-keys="ArrowLeft" type="button" aria-label="Esquerda">◀</button>
-					<span class="dpad-center" aria-hidden="true"></span>
-					<button class="control-button dpad-right" data-keys="ArrowRight" type="button" aria-label="Direita">▶</button>
-					<button class="control-button dpad-down" data-keys="ArrowDown" type="button" aria-label="Baixo">▼</button>
-				</div>
-
-				<div class="action-pad" aria-label="Ações">
-					<button class="control-button action-button action-jump" data-keys="Space" type="button" aria-label="Pular; segure para atravessar os buracos"><strong>A</strong><small>SEGURE PULO</small></button>
-					<button class="control-button action-button action-sweep" data-keys="KeyX" type="button" aria-label="Varrer"><strong>B</strong><small>VARRER</small></button>
-					<button class="control-button action-button action-spin" data-keys="KeyC" type="button" aria-label="Golpe giratório"><strong>C</strong><small>GIRO</small></button>
-				</div>
-			</div>
-		</div>
-		<script src="mobile.js"></script>
-		<!-- mobile-hud:end -->
 	</body>
 </html>
 
