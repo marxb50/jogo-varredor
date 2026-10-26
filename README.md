@@ -22,6 +22,7 @@ No computador:
 - Cima + direção contra uma parede: correr pela parede
 - Contra uma parede, segure a direção para agarrar; Baixo desce mais rápido, a direção oposta solta e Espaço/Z salta para longe
 - Ao alcançar o topo correndo pela parede, a suspensão curta atravessa a borda; Baixo + C mergulha ou Pulo + C faz dashjump ainda subindo
+- Na suspensão da borda, solte CIMA e a direção de avanço; faça Baixo + C e pressione C outra vez perto do fim do dash para cancelar o hover e encadear a saída. Se houver uma parede próxima, o segundo dash vira um wall-dash
 - No ar, Espaço/Z/↑ até 42 unidades da parede: atrair e iniciar salto de parede
 - No ar, C até 42 unidades da parede: impulso de parede com direção neutra ou para longe dela
 - Ao sair pelo topo da parede ainda subindo, aperte Espaço/Z/↑ antes do ápice para o salto de parede no ar
