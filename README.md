@@ -6,7 +6,7 @@ Jogo de ação e plataforma 2D pelas ruas de Parnamirim, feito em Godot.
 
 **[Abrir o jogo no navegador](https://marxb50.github.io/jogo-varredor/)**
 
-No celular, use o direcional e os botões **PULO**, **VARRER** e **GIRO**. Basta tocar em **PULO** para saltar e iniciar a varrida automática; **VARRER** continua disponível para atacar sem pular e fazer pogo com **baixo** no ar. Toque e solte durante a preparação para um pulo curto; mantenha **PULO** pressionado durante os 7,5 quadros da preparação para um salto alto. Aperte de novo no ar para o salto extra. No ar, **PULO** a até 42 unidades de uma parede aproxima o faxineiro e inicia um salto de parede; **GIRO sem baixo** faz o impulso de parede com direção neutra ou para longe dela. Ao correr pela parede até o topo, o faxineiro atravessa a borda em uma suspensão curta; **baixo + GIRO** mergulha e **PULO + GIRO** faz dashjump mesmo enquanto ainda sobe. Segure **baixo** numa ladeira para deslizar. Segure **cima** contra uma parede para subir por ela ou ao tocar um teto para se agarrar; com embalo, **cima + direção** corre pelo teto. A tela horizontal oferece a melhor experiência.
+No celular, use o direcional e os botões **PULO**, **VARRER** e **GIRO**. Basta tocar em **PULO** para saltar e iniciar a varrida automática; **VARRER** continua disponível para atacar sem pular e fazer pogo com **baixo** no ar. Toque e solte durante a preparação para um pulo curto; mantenha **PULO** pressionado durante os 7,5 quadros da preparação para um salto alto. Aperte de novo no ar para o salto extra. Ao cair junto de uma parede, segure a direção contra ela para deslizar; sem apontar para a parede, o personagem cai normalmente. No ar, **PULO** a até 42 unidades de uma parede aproxima o faxineiro e inicia um salto de parede; **GIRO sem baixo** faz o impulso de parede com direção neutra ou para longe dela. Ao correr pela parede até o topo, o faxineiro atravessa a borda em uma suspensão curta; **baixo + GIRO** mergulha e **PULO + GIRO** faz dashjump mesmo enquanto ainda sobe. Segure **baixo** numa ladeira para deslizar. Segure **cima** contra uma parede para subir por ela ou ao tocar um teto para se agarrar; com embalo, **cima + direção** corre pelo teto. A tela horizontal oferece a melhor experiência.
 
 No computador:
 
@@ -19,6 +19,7 @@ No computador:
 - Baixo numa ladeira inclinada: deslizar; o embalo segue no trecho plano
 - Pouse com velocidade lateral para converter a queda em embalo; use C logo ao tocar o chão para conservá-lo no giro-dash
 - Cima + direção contra uma parede: correr pela parede
+- Ao cair junto da parede, segure a direção contra ela para deslizar; sem comando lateral, cai normalmente
 - Ao alcançar o topo correndo pela parede, a suspensão curta atravessa a borda; Baixo + C mergulha ou Pulo + C faz dashjump ainda subindo
 - No ar, Espaço/Z/↑ até 42 unidades da parede: atrair e iniciar salto de parede
 - No ar, C até 42 unidades da parede: impulso de parede com direção neutra ou para longe dela
