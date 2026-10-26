@@ -6,7 +6,7 @@ Jogo de ação e plataforma 2D pelas ruas de Parnamirim, feito em Godot.
 
 **[Abrir o jogo no navegador](https://marxb50.github.io/jogo-varredor/)**
 
-No celular, use o direcional e os botões **PULO**, **VARRER** e **GIRO**. Segure o pulo durante a preparação para saltar mais alto; aperte de novo no ar para o salto extra. Segure **baixo** numa ladeira para deslizar. No ar, **baixo + varrer** faz pogo e **baixo + giro** mergulha. Segure **cima** contra uma parede para subir por ela ou ao tocar um teto para se agarrar; com embalo, **cima + direção** corre pelo teto. A tela horizontal oferece a melhor experiência.
+No celular, use o direcional e os botões **PULO**, **VARRER** e **GIRO**. Segure o pulo durante a preparação para saltar mais alto; aperte de novo no ar para o salto extra. Se passar pelo topo de uma parede ainda subindo, aperte **PULO** antes do ápice para saltar dela no ar. Segure **baixo** numa ladeira para deslizar. No ar, **baixo + varrer** faz pogo e **baixo + giro** mergulha. Segure **cima** contra uma parede para subir por ela ou ao tocar um teto para se agarrar; com embalo, **cima + direção** corre pelo teto. A tela horizontal oferece a melhor experiência.
 
 No computador:
 
@@ -16,7 +16,9 @@ No computador:
 - C: giro-dash; toque perto do fim para encadear outro
 - Baixo + C enquanto cai: mergulho
 - Baixo numa ladeira inclinada: deslizar; o embalo segue no trecho plano
+- Pouse com velocidade lateral para converter a queda em embalo; use C logo ao tocar o chão para conservá-lo no giro-dash
 - Cima + direção contra uma parede: correr pela parede
+- Ao sair pelo topo da parede ainda subindo, aperte Espaço/Z/↑ antes do ápice para o salto de parede no ar
 - Cima ao tocar um teto: agarrar; com embalo, cima + direção: correr pelo teto
 - Baixo + X no ar: pogo
 - Shift: correr
