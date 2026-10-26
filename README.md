@@ -13,7 +13,7 @@ No computador:
 - Setas ou A/D: mover
 - Espaço, Z ou seta para cima: pular; segure para o salto alto e aperte novamente no ar para o salto extra
 - X ou K: varrer
-- C: dash giratório de 12 quadros
+- C: giro-dash; toque perto do fim para encadear outro
 - Baixo + C enquanto cai: mergulho
 - Cima + direção contra uma parede: correr pela parede
 - Cima ao tocar um teto: agarrar; com embalo, cima + direção: correr pelo teto
