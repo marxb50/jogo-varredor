@@ -242,7 +242,7 @@ body::before {
 	position: absolute;
 	right: calc(16px + var(--safe-right));
 	bottom: calc(16px + var(--safe-bottom));
-	width: 205px;
+	width: 84px;
 	height: 158px;
 	filter: drop-shadow(0 8px 10px var(--shadow));
 }
@@ -289,12 +289,6 @@ body::before {
 	right: 0;
 	top: 0;
 	background: #2bbf78;
-}
-
-.action-sweep {
-	right: 104px;
-	top: 54px;
-	background: var(--coral);
 }
 
 .action-spin {
