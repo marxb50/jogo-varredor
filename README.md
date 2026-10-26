@@ -11,7 +11,8 @@ No celular, use o direcional e os botões **PULO**, **VARRER** e **GIRO**. Basta
 No computador:
 
 - Setas ou A/D: mover
-- Espaço, Z ou seta para cima: toque e solte durante a preparação para o pulo curto; segure durante os 7,5 quadros da preparação para o pulo alto; aperte de novo no ar para o salto extra. Durante a preparação, o comando oposto freia primeiro e o salto mantém o sentido do embalo até a velocidade inverter
+- Espaço, Z ou seta para cima: toque e solte durante a preparação para o pulo curto; segure durante os 7,5 quadros da preparação para o pulo alto; aperte de novo no ar para o salto extra
+- Durante a preparação do pulo, o comando oposto freia primeiro; o salto conserva o sentido do embalo até a velocidade inverter
 - X ou K: varrer manualmente; cada salto também varre automaticamente
 - C: giro-dash; toque perto do fim para encadear outro
 - Baixo + C enquanto cai: mergulho
